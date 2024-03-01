@@ -8,17 +8,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="page">
-      <h1>Test</h1>
-      <Navbar />
-      <div className="container">
-        <Routes>
-          <Route path="/" element={ <Query /> } />
-          <Route path="/query" element={ <Query /> } />
-          <Route path="/report" element={ <Report /> } />
-          <Route path="/reports" element={ <Reports /> } />
-        </Routes>
-      </div>
+    <div className="container">
+    <Navbar />
+      <Routes>
+        <Route path="/" element={ <Query /> } />
+        <Route path="/query" element={ <Query /> } />
+        <Route path="/report" element={ <Report /> } />
+        <Route path="/reports" element={ <Reports /> } />
+      </Routes>
     </div>
   );
 }
