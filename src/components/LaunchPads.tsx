@@ -11,7 +11,7 @@ const LaunchPads = () => {
     }
 
     return (
-        <div style={{height: isExpanded ? "auto" : "",}} className="LaunchPadContentHolder">
+        <div style={{height: isExpanded ? "auto" : ""}} className="LaunchPadContentHolder">
             <h2 className="LaunchPadHeader">LaunchPad</h2>
             <img src={ ExpandIcon } alt="Expand Icon" className="LaunchPadExpandIcon"
             style={{
