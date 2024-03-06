@@ -1,0 +1,54 @@
+.LaunchPadContentHolder {
+    /* LaunchPad Content Holder */
+
+    position: flex;
+    overflow: hidden;
+    width: 950px;
+    height: 95px;
+    margin-bottom: 0.5rem;
+
+    background: #445566;
+    border-radius: 25px;
+}
+
+.LaunchPadHeader {
+    /* Content Header */
+
+    position: absolute;
+    width: 495px;
+    height: 45px;
+    margin-left: 5rem;
+    margin-top: 1.2rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 774;
+    font-size: 46px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+.LaunchPadExpandIcon {
+    /* More Info Arrow */
+
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    margin-left: 26rem;
+    margin-top: 2.25rem;
+}
+
+.LaunchPadContentHolderExtension {
+    /* Content Holder Extension */
+
+    position: flex;
+    width: 857px;
+    height: auto;
+    padding-bottom: 10px;
+    margin-left: 6.875rem;
+    margin-top: 6rem;
+
+    background: #4E6378;
+    border-radius: 25px;
+}
